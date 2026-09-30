@@ -1,0 +1,23 @@
+{
+  "name": "Jayas 360 Content Studio",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "files.exclude": {
+          "**/.git": true,
+          "**/node_modules": true,
+          "**/*.insv": true,
+          "**/*.mp4": true,
+          "**/*.mov": true
+        }
+      }
+    }
+  },
+  "postCreateCommand": "node --version"
+}

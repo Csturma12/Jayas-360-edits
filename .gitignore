@@ -1,0 +1,45 @@
+# Local secrets and machine settings
+.env
+.env.*
+!.env.example
+.vscode/settings.json
+.idea/
+
+# Camera originals and editor cache
+*.insv
+*.insp
+*.lrv
+*.360
+*.mp4
+*.mov
+*.mxf
+*.avi
+*.wav
+*.aiff
+DCIM/
+media/
+footage/
+cache/
+CacheClip/
+render-cache/
+proxy-media/
+*.prproj
+*.drp
+*.fcpxml
+*.cfa
+*.pek
+*.imscc
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+desktop.ini
+*.tmp
+*.log
+
+# Keep folder placeholders while ignoring generated media
+exports/*
+!exports/.gitkeep
+thumbnails/*
+!thumbnails/.gitkeep
+
